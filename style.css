@@ -1,29 +1,32 @@
-.container{
-    width: 100%;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    color: #fff;
+    font-size: 50px;
+}
+
+.container-principal{
+    background-color: white;
     height: 100%;
+    width: 100%;
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, 200px);
-    grid-template-rows: repeat(auto-fill, 200px);
-    background-color: black;
- 
 }
 
-
-.red{
-    background-color: red;
-    width: 100%;
-}
-
-.yellow{
-    background-color: yellow;
-}
-
-.blue{
-    background-color: blue;
-    width: 100%;
-}
-
-.green{
+.div-left{
     background-color: green;
+}
+
+.div-right{
+    background-color: blue;
+}
+
+.footer{
+    background-color: red;
 }
